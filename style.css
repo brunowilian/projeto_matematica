@@ -1,0 +1,60 @@
+h1{
+  text-align: center;
+}
+
+.button{
+ margin-top: 15px; 
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+button{
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.emprestimoo{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.valor{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.valortotal{
+  color: red;
+}
+
+.valormes{
+  color: red;
+}
+
+#valor{
+width: 100px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#mes{
+  width: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#correntista{
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#consignado{
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#banco{
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Emprestimo</title>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <div>
+    <h1>Emprestimo Bancario</h1>
+  </div>
+  <main>
+    <div>
+      <form action="/">
+        <div class="emprestimoo">
+          <label for="valor">Qual é o valor do emprestimo :</label>
+          <input id="valor" type="text" value="">
+        </div>
+        <div class="emprestimoo">
+          <label for="mes">Informe em quantos meses é o finaciamento :</label>
+          <input id="mes" type="text" value="">
+        </div>
+      </form>
+      <div class="emprestimoo">
+        <form action="/">
+          <label for="banco">Escolhar um banco :</label>
+          <select name="banco" id="banco">
+            <option value="brasil">Banco do Brasil</option>
+            <option value="caixa">Banco da Caixa</option>
+            <option value="itau">Banco Itaú</option>
+          </select>
+        </form>
+        <div class="emprestimoo"> 
+          <form action="/">
+            <label for="consignado">O emprestimo é consignado ?</label>
+            <select name="consignado" id="consignado">
+              <option value="Sim">Sim</option>
+              <option value="Nao">Não</option>
+            </select>
+          </form>
+        </div>
+        <div class="emprestimoo">
+          <form action="/">
+            <label for="correntista">Você é correntista do banco ?</label>
+            <select name="correntista" id="correntista">
+              <option value="Sim">Sim</option>
+              <option value="Nao">Não</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="button">
+    <button type="button" onclick="verificar ()">Calcular</button>
+  </div>
+  <div>
+    <p class=" valor"> O valor a ser pago por mes é :
+      <label class="valormes" for="valormes"></label>
+    </p>
+<div>
+  <p class="valor">O valor total é :
+    <label class="valortotal" for="valortotal"></label>
+  </p>
+</div>
+  </div>
+</body>
+
+</html>
